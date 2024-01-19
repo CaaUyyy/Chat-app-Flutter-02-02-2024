@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "pertemuan_3_chat_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define", "ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxmYnpyYm1wcnhqc2xtbWFoYWd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU1NDM4NjIsImV4cCI6MjAyMTExOTg2Mn0.5VgQ_2zrV3zCmIS9hnfoDE7-7WKunnG5LNus3m6VqcU",
+                "--dart-define", "DB_URL=https://lfbzrbmprxjslmmahagv.supabase.co"
+
+            ],
+        },
+        {
+            "name": "pertemuan_3_chat_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "pertemuan_3_chat_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
